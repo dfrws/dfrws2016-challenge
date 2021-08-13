@@ -6,9 +6,9 @@ Software Defined Networking (SDN) is a new paradigm in networking that decouples
 ## Scenario
 You have obtained a memory image from an SDN switch, along with a capture of the network traffic between the SDN switch and its controller(s), i.e., the "southbound" traffic. Your job is to analyze these artifacts for forensically interesting information. Download the:
 
-Memory image  MD5: 0a3d12a8930793a27a441a45e9a7a6f8
+Memory image  [ram.raw.bz2](https://www.dropbox.com/s/2eyf3rj4bxwdlq0/ram.raw.bz2?dl=0) (MD5: 0a3d12a8930793a27a441a45e9a7a6f8)
 
-[Packet capture](materials/southbound.pcap)  MD5: 2b44c4a8deeffe7927ec3497994222c0
+Packet capture [southbound.pcap](materials/southbound.pcap)  MD5: 2b44c4a8deeffe7927ec3497994222c0
 
 ## Challenge
 Your job is to develop automated tools for analyzing southbound SDN forensic artifacts. Tools that fuse analysis of network traffic and memory dumps are especially encouraged. We know what hosts were connected to the SDN switch, what they did, and who they communicated with -- as well as the network policy and configuration as implemented by our SDN controller. Your tool should seek to reverse engineer as many of these details as possible! Some suggestions:
